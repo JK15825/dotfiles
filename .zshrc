@@ -120,6 +120,7 @@ export PATH="/Applications/ARM/bin/:$PATH"
 
 alias ls="eza --color=always --long --no-permissions --no-user --icons=always --no-time"
 alias cd="z"
+alias vim="hx"
 
 eval "$(zoxide init zsh)"
 source /opt/homebrew/share/powerlevel10k/powerlevel10k.zsh-theme

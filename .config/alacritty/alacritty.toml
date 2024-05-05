@@ -6,7 +6,6 @@ TERM = "xterm-256color"
 
 [window]
 padding.x = 5
-padding.y = 5
 
 decorations = "Buttonless"
 
