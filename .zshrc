@@ -116,7 +116,7 @@ export PATH="/usr/local/opt/gnu-getopt/bin:$PATH"
 export PATH="$(brew --prefix)/opt/make/libexec/gnubin:$PATH"
 export PATH="/usr/local/bin/node/bin:$PATH"
 export PATH="/Applications/ARM/bin/:$PATH"
-
+export EDITOR=hx
 
 alias ls="eza --color=always --long --no-permissions --no-user --icons=always --no-time"
 alias cd="z"
