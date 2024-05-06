@@ -121,6 +121,7 @@ export EDITOR=hx
 alias ls="eza --color=always --long --no-permissions --no-user --icons=always --no-time"
 alias cd="z"
 alias vim="hx"
+alias zel="zellij"
 
 eval "$(zoxide init zsh)"
 source /opt/homebrew/share/powerlevel10k/powerlevel10k.zsh-theme
