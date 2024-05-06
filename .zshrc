@@ -124,7 +124,13 @@ alias vim="hx"
 alias zel="zellij"
 
 eval "$(zoxide init zsh)"
-source /opt/homebrew/share/powerlevel10k/powerlevel10k.zsh-theme
+arch=$(uname -a | grep "arm64")
 
+if [[ "${#arch}" -eq "0" ]]; then
+  source /usr/local/share/powerlevel10k/powerlevel10k.zsh-theme
+else
+  source /opt/homebrew/share/powerlevel10k/powerlevel10k.zsh-theme
+fi
+ZSH_THEME="powerlevel10k/powerlevel10k"
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

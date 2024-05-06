@@ -1,14 +1,23 @@
 [
-  {
-    "context": "Editor",
-    "bindings": {
-      "ctrl-`": "terminal_panel::ToggleFocus"
+    {
+      "bindings": {
+          "cmd-ctrl-alt-v": "workspace::ToggleVimMode",
+      }
+
+    },
+    {
+        "context": "Editor",
+        "bindings": {
+            "cmd-;": null,
+            "ctrl-`": "terminal_panel::ToggleFocus",
+            "cmd-r": null
+        }
+    },
+    {
+        "context": "Terminal",
+        "bindings": {
+            "ctrl-`": "workspace::ToggleRightDock",
+            "cmd-r": null
+        }
     }
-  },
-  {
-    "context": "Workspace",
-    "bindings": {
-      "ctrl-`": "workspace::ToggleBottomDock"
-    }
-  }
 ]
