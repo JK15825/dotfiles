@@ -116,12 +116,13 @@ export PATH="/usr/local/opt/gnu-getopt/bin:$PATH"
 export PATH="$(brew --prefix)/opt/make/libexec/gnubin:$PATH"
 export PATH="/usr/local/bin/node/bin:$PATH"
 export PATH="/Applications/ARM/bin/:$PATH"
-export EDITOR=hx
+export editor=hx
 
 alias ls="eza --hyperlink --color=always --long --no-permissions --no-user --icons=always --no-time"
 alias cd="z"
 alias vim="hx"
 alias zel="zellij"
+alias scp="scp -O"
 
 eval "$(zoxide init zsh)"
 arch=$(uname -a | grep "arm64")
