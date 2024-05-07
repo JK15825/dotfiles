@@ -118,7 +118,7 @@ export PATH="/usr/local/bin/node/bin:$PATH"
 export PATH="/Applications/ARM/bin/:$PATH"
 export EDITOR=hx
 
-alias ls="eza --color=always --long --no-permissions --no-user --icons=always --no-time"
+alias ls="eza --hyperlink --color=always --long --no-permissions --no-user --icons=always --no-time"
 alias cd="z"
 alias vim="hx"
 alias zel="zellij"
