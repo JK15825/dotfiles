@@ -104,7 +104,7 @@ plugins=(git)
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-export PATH="/usr/local/opt/node@12/bin:$PATH"
+export PATH="/usr/local/opt/node@18/bin:$PATH"
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"
@@ -114,6 +114,7 @@ export PATH="/usr/local/opt/gnu-getopt/bin:$PATH"
 export PATH="$(brew --prefix)/opt/make/libexec/gnubin:$PATH"
 export PATH="/usr/local/bin/node/bin:$PATH"
 export PATH="/Applications/ARM/bin/:$PATH"
+export PATH="/Users/iti/.pyenv/versions/2.7.18/bin/:$PATH"
 export editor=hx
 
 alias ls="eza --hyperlink --color=always --long --no-permissions --no-user --icons=always --no-time"
@@ -121,7 +122,7 @@ alias cd="z"
 alias vim="hx"
 alias zel="zellij"
 alias scp="scp -O"
-
+eval $(thefuck --alias)
 eval "$(zoxide init zsh)"
 arch=$(uname -a | grep "arm64")
 

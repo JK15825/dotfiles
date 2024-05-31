@@ -1,0 +1,1127 @@
+{
+    "126208": {
+        "color": {
+            "a": 0.0,
+            "b": 1.0,
+            "g": 1.0,
+            "r": 1.0
+        },
+        "fast": true,
+        "pgnName": "Request Group Function",
+        "values": [
+            {
+                "conversionUnit": 0,
+                "dataLength": 8,
+                "dataStart": 8,
+                "masterType": 0,
+                "name": "Request Group Code",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "RGC"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 24,
+                "dataStart": 16,
+                "masterType": 0,
+                "name": "PGN",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "PGN"
+            }
+        ]
+    },
+    "126992": {
+        "color": {
+            "a": 0.0,
+            "b": 1.0,
+            "g": 1.0,
+            "r": 1.0
+        },
+        "fast": false,
+        "pgnName": "System Time",
+        "values": []
+    },
+    "126993": {
+        "color": {
+            "a": 0.0,
+            "b": 1.0,
+            "g": 1.0,
+            "r": 1.0
+        },
+        "fast": false,
+        "pgnName": "Heartbeat",
+        "values": []
+    },
+    "127250": {
+        "color": {
+            "a": 0.0,
+            "b": 1.0,
+            "g": 1.0,
+            "r": 1.0
+        },
+        "fast": false,
+        "pgnName": "Vessel Heading",
+        "values": []
+    },
+    "127251": {
+        "color": {
+            "a": 0.0,
+            "b": 1.0,
+            "g": 1.0,
+            "r": 1.0
+        },
+        "fast": false,
+        "pgnName": "Rate of Turn",
+        "values": []
+    },
+    "127257": {
+        "color": {
+            "a": 0.0,
+            "b": 1.0,
+            "g": 1.0,
+            "r": 1.0
+        },
+        "fast": false,
+        "pgnName": "Attitude",
+        "values": []
+    },
+    "127258": {
+        "color": {
+            "a": 0.0,
+            "b": 1.0,
+            "g": 1.0,
+            "r": 1.0
+        },
+        "fast": false,
+        "pgnName": "Magnetic Variation",
+        "values": []
+    },
+    "127488": {
+        "color": {
+            "a": 0.0,
+            "b": 1.0,
+            "g": 1.0,
+            "r": 1.0
+        },
+        "fast": false,
+        "pgnName": "Engine Rapid Status",
+        "values": [
+            {
+                "conversionUnit": 0,
+                "dataLength": 16,
+                "dataStart": 8,
+                "masterType": 0,
+                "name": "RPM",
+                "scalar": 0.25,
+                "scalarUnit": 0,
+                "shortName": "RPM"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 16,
+                "dataStart": 24,
+                "masterType": 0,
+                "name": "Boost",
+                "scalar": 0.01450377378,
+                "scalarUnit": 0,
+                "shortName": "BST"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 8,
+                "dataStart": 40,
+                "masterType": 0,
+                "name": "Trim",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "TRIM"
+            }
+        ]
+    },
+    "127489": {
+        "color": {
+            "a": 0.0,
+            "b": 1.0,
+            "g": 1.0,
+            "r": 1.0
+        },
+        "fast": true,
+        "pgnName": "Dynamic Status",
+        "values": [
+            {
+                "conversionUnit": 3,
+                "dataLength": 16,
+                "dataStart": 80,
+                "masterType": 6,
+                "name": "Fuel Rate",
+                "scalar": 0.0264172,
+                "scalarUnit": 0,
+                "shortName": "FUEL"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 32,
+                "dataStart": 96,
+                "masterType": 0,
+                "name": "Hours",
+                "scalar": 0.0002777777778,
+                "scalarUnit": 0,
+                "shortName": "HOURS"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 16,
+                "dataStart": 16,
+                "masterType": 0,
+                "name": "Oil Pressure",
+                "scalar": 0.0001450377377,
+                "scalarUnit": 0,
+                "shortName": "OILPS"
+            },
+            {
+                "conversionUnit": 1,
+                "dataLength": 16,
+                "dataStart": 32,
+                "masterType": 1,
+                "name": "Oil Temperature",
+                "scalar": 0.1,
+                "scalarUnit": 0,
+                "shortName": "OILTEMP"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 16,
+                "dataStart": 48,
+                "masterType": 0,
+                "name": "Coolant Temperature",
+                "scalar": 0.01,
+                "scalarUnit": 0,
+                "shortName": "C-TEMP"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 16,
+                "dataStart": 64,
+                "masterType": 0,
+                "name": "Battery",
+                "scalar": 0.01,
+                "scalarUnit": 0,
+                "shortName": "BATT"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 16,
+                "dataStart": 128,
+                "masterType": 0,
+                "name": "Coolant Pressure",
+                "scalar": 0.0001450377377,
+                "scalarUnit": 0,
+                "shortName": "COOLANTPS"
+            },
+            {
+                "conversionUnit": 1,
+                "dataLength": 16,
+                "dataStart": 144,
+                "masterType": 5,
+                "name": "Fuel Pressure",
+                "scalar": 0.001450377377,
+                "scalarUnit": 0,
+                "shortName": "FUELPR"
+            }
+        ]
+    },
+    "127493": {
+        "color": {
+            "a": 0.0,
+            "b": 1.0,
+            "g": 1.0,
+            "r": 1.0
+        },
+        "fast": false,
+        "pgnName": "Transmission Parameters",
+        "values": []
+    },
+    "127501": {
+        "color": {
+            "a": 0.0,
+            "b": 1.0,
+            "g": 1.0,
+            "r": 1.0
+        },
+        "fast": false,
+        "pgnName": "Binary Status Report",
+        "values": [
+            {
+                "conversionUnit": 0,
+                "dataLength": 8,
+                "dataStart": 0,
+                "masterType": 0,
+                "name": "Instance",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "INST"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 56,
+                "dataStart": 8,
+                "masterType": 0,
+                "name": "Status",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "STATUS"
+            }
+        ]
+    },
+    "127502": {
+        "color": {
+            "a": 0.0,
+            "b": 1.0,
+            "g": 1.0,
+            "r": 1.0
+        },
+        "fast": false,
+        "pgnName": "Switch Control",
+        "values": []
+    },
+    "127503": {
+        "color": {
+            "a": 0.0,
+            "b": 1.0,
+            "g": 1.0,
+            "r": 1.0
+        },
+        "fast": true,
+        "pgnName": "AC Input Status",
+        "values": [
+            {
+                "conversionUnit": 0,
+                "dataLength": 8,
+                "dataStart": 8,
+                "masterType": 0,
+                "name": "Instance",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "INST"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 16,
+                "dataStart": 32,
+                "masterType": 0,
+                "name": "Voltage",
+                "scalar": 0.01,
+                "scalarUnit": 0,
+                "shortName": "VOLT"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 16,
+                "dataStart": 48,
+                "masterType": 0,
+                "name": "Current",
+                "scalar": 0.1,
+                "scalarUnit": 0,
+                "shortName": "CURR"
+            }
+        ]
+    },
+    "127504": {
+        "color": {
+            "a": 0.0,
+            "b": 1.0,
+            "g": 1.0,
+            "r": 1.0
+        },
+        "fast": true,
+        "pgnName": "AC Output Status",
+        "values": [
+            {
+                "conversionUnit": 0,
+                "dataLength": 8,
+                "dataStart": 8,
+                "masterType": 0,
+                "name": "Instance",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "INST"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 16,
+                "dataStart": 32,
+                "masterType": 0,
+                "name": "Voltage",
+                "scalar": 0.01,
+                "scalarUnit": 0,
+                "shortName": "VOLT"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 16,
+                "dataStart": 48,
+                "masterType": 0,
+                "name": "Current",
+                "scalar": 0.1,
+                "scalarUnit": 0,
+                "shortName": "CURR"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 32,
+                "dataStart": 96,
+                "masterType": 0,
+                "name": "Watts",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "WATT"
+            }
+        ]
+    },
+    "127505": {
+        "color": {
+            "a": 0.0,
+            "b": 1.0,
+            "g": 1.0,
+            "r": 1.0
+        },
+        "fast": false,
+        "pgnName": "Fluid Level",
+        "values": [
+            {
+                "conversionUnit": 0,
+                "dataLength": 4,
+                "dataStart": 0,
+                "masterType": 0,
+                "name": "Instance",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "FL_LVL"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 4,
+                "dataStart": 0,
+                "masterType": 0,
+                "name": "Type",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "TYPE"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 16,
+                "dataStart": 8,
+                "masterType": 0,
+                "name": "Level",
+                "scalar": 0.004,
+                "scalarUnit": 0,
+                "shortName": "LVL"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 32,
+                "dataStart": 24,
+                "masterType": 0,
+                "name": "Capacity",
+                "scalar": 0.001,
+                "scalarUnit": 0,
+                "shortName": "CAP"
+            }
+        ]
+    },
+    "127506": {
+        "color": {
+            "a": 0.0,
+            "b": 1.0,
+            "g": 1.0,
+            "r": 1.0
+        },
+        "fast": true,
+        "pgnName": "DC Detailed Status",
+        "values": [
+            {
+                "conversionUnit": 0,
+                "dataLength": 8,
+                "dataStart": 16,
+                "masterType": 0,
+                "name": "Instance",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "INST"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 8,
+                "dataStart": 32,
+                "masterType": 0,
+                "name": "Charge",
+                "scalar": 1.0,
+                "scalarUnit": 1,
+                "shortName": "CHRGE"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 16,
+                "dataStart": 48,
+                "masterType": 0,
+                "name": "Time",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "TIME"
+            }
+        ]
+    },
+    "127507": {
+        "color": {
+            "a": 0.0,
+            "b": 1.0,
+            "g": 1.0,
+            "r": 1.0
+        },
+        "fast": true,
+        "pgnName": "Charger Status",
+        "values": [
+            {
+                "conversionUnit": 0,
+                "dataLength": 8,
+                "dataStart": 8,
+                "masterType": 0,
+                "name": "C Instance",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "C_INST"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 8,
+                "dataStart": 16,
+                "masterType": 0,
+                "name": "B Instance",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "B_INST"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 4,
+                "dataStart": 24,
+                "masterType": 0,
+                "name": "OpState",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "OPST"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 4,
+                "dataStart": 28,
+                "masterType": 0,
+                "name": "ChargeMode",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "CHM"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 2,
+                "dataStart": 24,
+                "masterType": 0,
+                "name": "Enabled",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "ENBLD"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 2,
+                "dataStart": 24,
+                "masterType": 0,
+                "name": "EqPending",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "EQPEND"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 16,
+                "dataStart": 32,
+                "masterType": 0,
+                "name": "EqTimeRemaining",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "EQREM"
+            }
+        ]
+    },
+    "127508": {
+        "color": {
+            "a": 0.0,
+            "b": 1.0,
+            "g": 1.0,
+            "r": 1.0
+        },
+        "fast": false,
+        "pgnName": "Battery Status",
+        "values": [
+            {
+                "conversionUnit": 0,
+                "dataLength": 8,
+                "dataStart": 0,
+                "masterType": 0,
+                "name": "Instance",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "INST"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 16,
+                "dataStart": 8,
+                "masterType": 0,
+                "name": "Voltage",
+                "scalar": 0.01,
+                "scalarUnit": 0,
+                "shortName": "VOLT"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 16,
+                "dataStart": 24,
+                "masterType": 7,
+                "name": "Current",
+                "scalar": 0.1,
+                "scalarUnit": 2,
+                "shortName": "CURR"
+            }
+        ]
+    },
+    "127509": {
+        "color": {
+            "a": 0.0,
+            "b": 1.0,
+            "g": 1.0,
+            "r": 1.0
+        },
+        "fast": true,
+        "pgnName": "Inverter Status",
+        "values": [
+            {
+                "conversionUnit": 0,
+                "dataLength": 8,
+                "dataStart": 0,
+                "masterType": 0,
+                "name": "Instance",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "INST"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 8,
+                "dataStart": 8,
+                "masterType": 0,
+                "name": "AC Instance",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "AC"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 8,
+                "dataStart": 16,
+                "masterType": 0,
+                "name": "DC Instance",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "DC"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 4,
+                "dataStart": 24,
+                "masterType": 0,
+                "name": "Op State",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "OPST"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 2,
+                "dataStart": 24,
+                "masterType": 0,
+                "name": "Enabled",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "ENBLE"
+            }
+        ]
+    },
+    "128267": {
+        "color": {
+            "a": 0.0,
+            "b": 1.0,
+            "g": 1.0,
+            "r": 1.0
+        },
+        "fast": false,
+        "pgnName": "Depth",
+        "values": [
+            {
+                "conversionUnit": 0,
+                "dataLength": 32,
+                "dataStart": 8,
+                "masterType": 0,
+                "name": "Depth",
+                "scalar": 0.01,
+                "scalarUnit": 0,
+                "shortName": "DEPTH"
+            }
+        ]
+    },
+    "129025": {
+        "color": {
+            "a": 0.0,
+            "b": 1.0,
+            "g": 1.0,
+            "r": 1.0
+        },
+        "fast": false,
+        "pgnName": "Position, Rapid Update",
+        "values": [
+            {
+                "conversionUnit": 1,
+                "dataLength": 32,
+                "dataStart": 8,
+                "masterType": 8,
+                "name": "Latitude",
+                "scalar": 1e-07,
+                "scalarUnit": 1,
+                "shortName": "LAT"
+            },
+            {
+                "conversionUnit": 1,
+                "dataLength": 32,
+                "dataStart": 40,
+                "masterType": 8,
+                "name": "Longitude",
+                "scalar": 1e-07,
+                "scalarUnit": 1,
+                "shortName": "LONG"
+            }
+        ]
+    },
+    "129026": {
+        "color": {
+            "a": 0.0,
+            "b": 1.0,
+            "g": 1.0,
+            "r": 1.0
+        },
+        "fast": false,
+        "pgnName": "COG & SOG, Rapid Update",
+        "values": [
+            {
+                "conversionUnit": 3,
+                "dataLength": 16,
+                "dataStart": 32,
+                "masterType": 2,
+                "name": "Water Speed",
+                "scalar": 0.01,
+                "scalarUnit": 0,
+                "shortName": "SPD"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 2,
+                "dataStart": 8,
+                "masterType": 0,
+                "name": "Error",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "ERR"
+            }
+        ]
+    },
+    "129029": {
+        "color": {
+            "a": 0.0,
+            "b": 1.0,
+            "g": 1.0,
+            "r": 1.0
+        },
+        "fast": true,
+        "pgnName": "GNSS Position Data",
+        "values": []
+    },
+    "129539": {
+        "color": {
+            "a": 0.0,
+            "b": 1.0,
+            "g": 1.0,
+            "r": 1.0
+        },
+        "fast": false,
+        "pgnName": "GNSS DOPs",
+        "values": []
+    },
+    "129540": {
+        "color": {
+            "a": 0.0,
+            "b": 1.0,
+            "g": 1.0,
+            "r": 1.0
+        },
+        "fast": true,
+        "pgnName": "GNSS Sat in View",
+        "values": []
+    },
+    "130312": {
+        "color": {
+            "a": 0.0,
+            "b": 1.0,
+            "g": 1.0,
+            "r": 1.0
+        },
+        "fast": false,
+        "pgnName": "Temp - Deprecated",
+        "values": []
+    },
+    "130314": {
+        "color": {
+            "a": 0.0,
+            "b": 1.0,
+            "g": 1.0,
+            "r": 1.0
+        },
+        "fast": false,
+        "pgnName": "Actual Pressure",
+        "values": [
+            {
+                "conversionUnit": 0,
+                "dataLength": 8,
+                "dataStart": 8,
+                "masterType": 0,
+                "name": "Instance",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "INST"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 8,
+                "dataStart": 16,
+                "masterType": 0,
+                "name": "Source",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "SRC"
+            },
+            {
+                "conversionUnit": 2,
+                "dataLength": 32,
+                "dataStart": 24,
+                "masterType": 5,
+                "name": "Pressure",
+                "scalar": 0.1,
+                "scalarUnit": 0,
+                "shortName": "PSR"
+            }
+        ]
+    },
+    "130316": {
+        "color": {
+            "a": 0.0,
+            "b": 1.0,
+            "g": 1.0,
+            "r": 1.0
+        },
+        "fast": false,
+        "pgnName": "Actual Temperature",
+        "values": [
+            {
+                "conversionUnit": 0,
+                "dataLength": 8,
+                "dataStart": 8,
+                "masterType": 0,
+                "name": "Instance",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "INST"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 8,
+                "dataStart": 16,
+                "masterType": 0,
+                "name": "Source",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "SRC"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 32,
+                "dataStart": 24,
+                "masterType": 0,
+                "name": "Temperature",
+                "scalar": 0.001,
+                "scalarUnit": 0,
+                "shortName": "TEMP"
+            },
+            {
+                "conversionUnit": 1,
+                "dataLength": 16,
+                "dataStart": 32,
+                "masterType": 2,
+                "name": "Speed over ground",
+                "scalar": 0.01,
+                "scalarUnit": 0,
+                "shortName": "SOG"
+            }
+        ]
+    },
+    "130576": {
+        "color": {
+            "a": 0.0,
+            "b": 1.0,
+            "g": 1.0,
+            "r": 1.0
+        },
+        "fast": false,
+        "pgnName": "Trim Tab Status",
+        "values": []
+    },
+    "130579": {
+        "color": {
+            "a": 0.0,
+            "b": 1.0,
+            "g": 1.0,
+            "r": 1.0
+        },
+        "fast": false,
+        "pgnName": "Entertainment - System Config",
+        "values": [
+            {
+                "conversionUnit": 0,
+                "dataLength": 2,
+                "dataStart": 0,
+                "masterType": 0,
+                "name": "POWER",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "PWR"
+            }
+        ]
+    },
+    "130580": {
+        "color": {
+            "a": 0.0,
+            "b": 1.0,
+            "g": 1.0,
+            "r": 1.0
+        },
+        "fast": false,
+        "pgnName": "Entertainment - SystemConfig DEP",
+        "values": [
+            {
+                "conversionUnit": 0,
+                "dataLength": 2,
+                "dataStart": 0,
+                "masterType": 0,
+                "name": "POWER STATE",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "PWR"
+            }
+        ]
+    },
+    "59904": {
+        "color": {
+            "a": 0.0,
+            "b": 1.0,
+            "g": 1.0,
+            "r": 1.0
+        },
+        "fast": false,
+        "pgnName": "ISO Request",
+        "values": [
+            {
+                "conversionUnit": 0,
+                "dataLength": 24,
+                "dataStart": 0,
+                "masterType": 0,
+                "name": "PGN",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "PGN"
+            }
+        ]
+    },
+    "60928": {
+        "color": {
+            "a": 0.0,
+            "b": 1.0,
+            "g": 1.0,
+            "r": 1.0
+        },
+        "fast": false,
+        "pgnName": "ISO Address Claim",
+        "values": [
+            {
+                "conversionUnit": 0,
+                "dataLength": 21,
+                "dataStart": 0,
+                "masterType": 0,
+                "name": "Unique Number",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "UN"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 11,
+                "dataStart": 21,
+                "masterType": 0,
+                "name": "Manu Code",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "MC"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 3,
+                "dataStart": 32,
+                "masterType": 0,
+                "name": "Device Instance",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "DI"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 5,
+                "dataStart": 35,
+                "masterType": 0,
+                "name": "Device Instance Upper",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "DIU"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 8,
+                "dataStart": 40,
+                "masterType": 0,
+                "name": "Device Function",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "DF"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 7,
+                "dataStart": 49,
+                "masterType": 0,
+                "name": "Device Class",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "DC"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 4,
+                "dataStart": 56,
+                "masterType": 0,
+                "name": "System Instance",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "SI"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 3,
+                "dataStart": 60,
+                "masterType": 0,
+                "name": "Industry Group",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "IG"
+            }
+        ]
+    },
+    "65500": {
+        "color": {
+            "a": 0.0,
+            "b": 1.0,
+            "g": 1.0,
+            "r": 1.0
+        },
+        "fast": false,
+        "pgnName": "Custom Compressor",
+        "values": [
+            {
+                "conversionUnit": 0,
+                "dataLength": 11,
+                "dataStart": 0,
+                "masterType": 0,
+                "name": "Manufacturer",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "MFG"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 8,
+                "dataStart": 24,
+                "masterType": 0,
+                "name": "Instance",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "INST"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 16,
+                "dataStart": 32,
+                "masterType": 0,
+                "name": "Voltage",
+                "scalar": 0.01,
+                "scalarUnit": 0,
+                "shortName": "VOLT"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 32,
+                "dataStart": 48,
+                "masterType": 0,
+                "name": "Runtime",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "RT"
+            }
+        ]
+    },
+    "configuration": {
+        "dark_mode": true,
+        "data": "",
+        "destination": "",
+        "inverted_search": false,
+        "pgns": [],
+        "source": "",
+        "use_hex": true
+    },
+    "defaults": {
+        "Base": "Base 10",
+        "Direction": "Radian",
+        "Distance": "Foot",
+        "Electric": "Volt",
+        "Fluid": "Gallon",
+        "Pressure": "Pascal",
+        "Speed": "Meters/s",
+        "Temperature": "Kelvin",
+        "Time": "Millisecond"
+    }
+}
