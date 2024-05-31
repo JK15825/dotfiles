@@ -121,6 +121,7 @@ alias cd="z"
 alias vim="hx"
 alias zel="zellij"
 alias scp="scp -O"
+eval $(thefuck --alias)
 
 eval "$(zoxide init zsh)"
 arch=$(uname -a | grep "arm64")

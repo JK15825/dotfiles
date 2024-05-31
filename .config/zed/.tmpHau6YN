@@ -1,0 +1,20 @@
+{"signed_in":false,"milliseconds_since_first_event":0,"type":"App","operation":"open"}
+{"signed_in":false,"milliseconds_since_first_event":35,"type":"Setting","setting":"theme","value":"One Dark"}
+{"signed_in":false,"milliseconds_since_first_event":35,"type":"Setting","setting":"keymap","value":"VSCode"}
+{"signed_in":false,"milliseconds_since_first_event":0,"type":"Editor","operation":"open","file_extension":"cpp","vim_mode":true,"copilot_enabled":true,"copilot_enabled_for_language":true}
+{"signed_in":false,"milliseconds_since_first_event":90,"type":"Extension","extension_id":"macos-classic","version":"0.0.4"}
+{"signed_in":false,"milliseconds_since_first_event":1219,"type":"Extension","extension_id":"html","version":"0.1.1"}
+{"signed_in":false,"milliseconds_since_first_event":1219,"type":"Extension","extension_id":"macos-classic","version":"0.0.8"}
+{"signed_in":false,"milliseconds_since_first_event":239771,"type":"Memory","memory_in_bytes":114491392,"virtual_memory_in_bytes":438260023296}
+{"signed_in":false,"milliseconds_since_first_event":239771,"type":"Cpu","usage_as_percentage":0.0,"core_count":8}
+{"signed_in":false,"milliseconds_since_first_event":0,"type":"Memory","memory_in_bytes":101859328,"virtual_memory_in_bytes":438261743616}
+{"signed_in":false,"milliseconds_since_first_event":1,"type":"Cpu","usage_as_percentage":0.86367625,"core_count":8}
+{"signed_in":false,"milliseconds_since_first_event":239968,"type":"Memory","memory_in_bytes":95256576,"virtual_memory_in_bytes":438260596736}
+{"signed_in":false,"milliseconds_since_first_event":239968,"type":"Cpu","usage_as_percentage":0.70602536,"core_count":8}
+{"signed_in":false,"milliseconds_since_first_event":0,"type":"Memory","memory_in_bytes":97910784,"virtual_memory_in_bytes":438261170176}
+{"signed_in":false,"milliseconds_since_first_event":0,"type":"Cpu","usage_as_percentage":0.97980666,"core_count":8}
+{"signed_in":false,"milliseconds_since_first_event":125235,"type":"App","operation":"open project"}
+{"signed_in":false,"milliseconds_since_first_event":198183,"type":"Edit","duration":7959,"environment":"terminal"}
+{"signed_in":false,"milliseconds_since_first_event":224190,"type":"Edit","duration":2907,"environment":"terminal"}
+{"signed_in":false,"milliseconds_since_first_event":240348,"type":"Memory","memory_in_bytes":147357696,"virtual_memory_in_bytes":439630675968}
+{"signed_in":false,"milliseconds_since_first_event":240348,"type":"Cpu","usage_as_percentage":3.4692416,"core_count":8}
