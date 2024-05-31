@@ -87,3 +87,9 @@
 {"signed_in":false,"milliseconds_since_first_event":120762,"type":"Memory","memory_in_bytes":112377856,"virtual_memory_in_bytes":447062245376}
 {"signed_in":false,"milliseconds_since_first_event":120763,"type":"Cpu","usage_as_percentage":4.625109,"core_count":8}
 {"signed_in":false,"milliseconds_since_first_event":131587,"type":"Edit","duration":15399,"environment":"terminal"}
+{"signed_in":false,"milliseconds_since_first_event":0,"type":"Memory","memory_in_bytes":56229888,"virtual_memory_in_bytes":447086575616}
+{"signed_in":false,"milliseconds_since_first_event":1,"type":"Cpu","usage_as_percentage":6.139814,"core_count":8}
+{"signed_in":false,"milliseconds_since_first_event":67753,"type":"Editor","operation":"open","file_extension":"cpp","vim_mode":true,"copilot_enabled":true,"copilot_enabled_for_language":true}
+{"signed_in":false,"milliseconds_since_first_event":239988,"type":"Memory","memory_in_bytes":96976896,"virtual_memory_in_bytes":447088295936}
+{"signed_in":false,"milliseconds_since_first_event":239988,"type":"Cpu","usage_as_percentage":5.083712,"core_count":8}
+{"signed_in":false,"milliseconds_since_first_event":240320,"type":"Edit","duration":1971,"environment":"terminal"}
