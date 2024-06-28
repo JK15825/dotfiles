@@ -397,12 +397,12 @@
                 "name": "Instance",
                 "scalar": 1.0,
                 "scalarUnit": 0,
-                "shortName": "FL_LVL"
+                "shortName": "FLINST"
             },
             {
                 "conversionUnit": 0,
                 "dataLength": 4,
-                "dataStart": 0,
+                "dataStart": 4,
                 "masterType": 0,
                 "name": "Type",
                 "scalar": 1.0,
@@ -416,17 +416,17 @@
                 "masterType": 0,
                 "name": "Level",
                 "scalar": 0.004,
-                "scalarUnit": 0,
+                "scalarUnit": 1,
                 "shortName": "LVL"
             },
             {
                 "conversionUnit": 0,
                 "dataLength": 32,
                 "dataStart": 24,
-                "masterType": 0,
+                "masterType": 6,
                 "name": "Capacity",
-                "scalar": 0.001,
-                "scalarUnit": 0,
+                "scalar": 0.0001,
+                "scalarUnit": 1,
                 "shortName": "CAP"
             }
         ]
@@ -883,6 +883,260 @@
             }
         ]
     },
+    "130569": {
+        "color": {
+            "a": 0.0,
+            "b": 1.0,
+            "g": 1.0,
+            "r": 1.0
+        },
+        "fast": true,
+        "pgnName": "Entertainment Current File and Status",
+        "values": [
+            {
+                "conversionUnit": 0,
+                "dataLength": 8,
+                "dataStart": 8,
+                "masterType": 0,
+                "name": "Zone Number",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "ZONE"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 8,
+                "dataStart": 16,
+                "masterType": 0,
+                "name": "Source Type",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "STYPE"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 8,
+                "dataStart": 24,
+                "masterType": 0,
+                "name": "Source Number",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "SNUMB"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 32,
+                "dataStart": 32,
+                "masterType": 0,
+                "name": "File ID",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "FID"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 8,
+                "dataStart": 64,
+                "masterType": 0,
+                "name": "Play State",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "PLAY"
+            },
+            {
+                "conversionUnit": 3,
+                "dataLength": 16,
+                "dataStart": 72,
+                "masterType": 4,
+                "name": "Elapsed Time",
+                "scalar": 1.0,
+                "scalarUnit": 1,
+                "shortName": "ETIME"
+            },
+            {
+                "conversionUnit": 3,
+                "dataLength": 16,
+                "dataStart": 88,
+                "masterType": 4,
+                "name": "Track Time",
+                "scalar": 1.0,
+                "scalarUnit": 1,
+                "shortName": "TTIME"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 4,
+                "dataStart": 96,
+                "masterType": 0,
+                "name": "Repeat Status",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "RSTAT"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 4,
+                "dataStart": 100,
+                "masterType": 0,
+                "name": "Shuffle Status",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "SSTAR"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 8,
+                "dataStart": 104,
+                "masterType": 0,
+                "name": "Save Favorite Number",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "SFN"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 8,
+                "dataStart": 112,
+                "masterType": 0,
+                "name": "Play Favorite Number",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "PFN"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 8,
+                "dataStart": 120,
+                "masterType": 0,
+                "name": "Thumbs Up",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "THMB"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 1,
+                "dataStart": 128,
+                "masterType": 0,
+                "name": "Signal Strength",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "STRNG"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 32,
+                "dataStart": 136,
+                "masterType": 0,
+                "name": "Radio Frequency",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "RFRQ"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 8,
+                "dataStart": 168,
+                "masterType": 0,
+                "name": "HD Freq MultiCast",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "HDFM"
+            }
+        ]
+    },
+    "130571": {
+        "color": {
+            "a": 0.0,
+            "b": 1.0,
+            "g": 1.0,
+            "r": 1.0
+        },
+        "fast": true,
+        "pgnName": "Entertainment Library Data Group",
+        "values": [
+            {
+                "conversionUnit": 0,
+                "dataLength": 8,
+                "dataStart": 8,
+                "masterType": 0,
+                "name": "Audio Video Source Type",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "AVST"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 8,
+                "dataStart": 16,
+                "masterType": 0,
+                "name": "Audio Video Source Number",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "AVSN"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 8,
+                "dataStart": 24,
+                "masterType": 0,
+                "name": "Group Type",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "GT"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 8,
+                "dataStart": 32,
+                "masterType": 0,
+                "name": "Play Queue Zone Number",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "PQZN"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 32,
+                "dataStart": 40,
+                "masterType": 0,
+                "name": "Group Id",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "GID"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 8,
+                "dataStart": 72,
+                "masterType": 0,
+                "name": "Index of First",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "I0F"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 8,
+                "dataStart": 80,
+                "masterType": 0,
+                "name": "Number of ID",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "NID"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 8,
+                "dataStart": 88,
+                "masterType": 0,
+                "name": "Total number of ID",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "TNID"
+            }
+        ]
+    },
     "130576": {
         "color": {
             "a": 0.0,
@@ -935,6 +1189,128 @@
                 "scalar": 1.0,
                 "scalarUnit": 0,
                 "shortName": "PWR"
+            }
+        ]
+    },
+    "130586": {
+        "color": {
+            "a": 0.0,
+            "b": 1.0,
+            "g": 1.0,
+            "r": 1.0
+        },
+        "fast": true,
+        "pgnName": "Entertainment Zone Status",
+        "values": [
+            {
+                "conversionUnit": 0,
+                "dataLength": 8,
+                "dataStart": 8,
+                "masterType": 0,
+                "name": "Zone",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "ZONE"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 8,
+                "dataStart": 16,
+                "masterType": 0,
+                "name": "Volume Limit",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "VLIM"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 8,
+                "dataStart": 24,
+                "masterType": 0,
+                "name": "Fade",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "FADE"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 8,
+                "dataStart": 32,
+                "masterType": 0,
+                "name": "Balance",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "BAL"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 8,
+                "dataStart": 48,
+                "masterType": 0,
+                "name": "Treble",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "TREB"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 8,
+                "dataStart": 56,
+                "masterType": 0,
+                "name": "Mid",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "MID"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 8,
+                "dataStart": 64,
+                "masterType": 0,
+                "name": "Bass",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "BASS"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 8,
+                "dataStart": 72,
+                "masterType": 0,
+                "name": "EQ Preset Type",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "EQTY"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 8,
+                "dataStart": 80,
+                "masterType": 0,
+                "name": "Audio Filter Setting",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "AFT"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 16,
+                "dataStart": 88,
+                "masterType": 0,
+                "name": "High-Pass Filter",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "HPF"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 16,
+                "dataStart": 104,
+                "masterType": 0,
+                "name": "Low-Pass Filter",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "LPF"
             }
         ]
     },
@@ -1106,11 +1482,11 @@
     },
     "configuration": {
         "dark_mode": true,
-        "data": "",
-        "destination": "",
+        "data": "a3 99 22 00",
+        "destination": "35",
         "inverted_search": false,
         "pgns": [],
-        "source": "",
+        "source": "5",
         "use_hex": true
     },
     "defaults": {

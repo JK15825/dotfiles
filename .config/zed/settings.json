@@ -11,6 +11,9 @@
   //   "copilot": false
   // },
   // "show_copilot_suggestions": false,
+  "features": {
+    "copilot": false
+  },
   "languages": {
     "JavaScript": {
       "show_copilot_suggestions": false
@@ -25,11 +28,11 @@
     ]
   },
   "base_keymap": "VSCode",
-  "theme": "macOS Classic Dark",
+  "theme": "XY-Zed",
   "ui_font_size": 16,
   "buffer_font_size": 14,
-  "buffer_font_family": "JetBrains Mono",
   "ui_font_family": "JetBrains Mono",
+  "buffer_font_family": "JetBrains Mono",
   "tab_size": 4,
   "format_on_save": "off",
   "tabs": {
@@ -37,7 +40,8 @@
   },
   "terminal": {
       "dock": "right",
-      "button": false
+      "button": false,
+      "font_family": "MesloLGL Nerd Font Mono"
   },
   "assistant": {
     "version": "1",
@@ -60,17 +64,17 @@
           "enabled": false
       }
   },
-  "relative_line_numbers": true,
-  "experimental.theme_overrides": {
-    "background.appearance": "blurred",
-    "panel.background": "#1E1D1E00",
-    "background": "#1E1D1EDF",
-    "terminal.background": "#1E1D1E00",
-    "title_bar.background": "#292929AF",
-    "status_bar.background": "#292929AF",
-    "editor.gutter.background": "#1E1D1ECF",
-    "editor.background": "#1E1D1E00",
-    "editor.active_line.background": "#272727AF"
-    // "editor.background": "#1E1D1EBF"
-  }
+  "relative_line_numbers": false,
+  // "experimental.theme_overrides": {
+  //   "background.appearance": "blurred",
+  //   "panel.background": "#1E1D1E00",
+  //   "background": "#1E1D1EDF",
+  //   "terminal.background": "#1E1D1E00",
+  //   "title_bar.background": "#292929AF",
+  //   "status_bar.background": "#292929AF",
+  //   "editor.gutter.background": "#1E1D1ECF",
+  //   "editor.background": "#1E1D1E00",
+  //   "editor.active_line.background": "#272727AF"
+  //   // "editor.background": "#1E1D1EBF"
+  // }
 }

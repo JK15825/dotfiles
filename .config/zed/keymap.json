@@ -2,6 +2,7 @@
     {
       "bindings": {
           "cmd-ctrl-alt-v": "workspace::ToggleVimMode",
+          "cmd-r": null
       }
 
     },
