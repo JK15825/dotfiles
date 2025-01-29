@@ -1,0 +1,17 @@
+[language-server.typescript-language-server.config]
+plugins = [{ name = "@vue/typescript-plugin", location = "/usr/bin/vue-language-server", languages = ["vue"] }]
+
+[language-server.typescript-language-server.config.vue.inlayHints]
+includeInlayEnumMemberValueHints = true
+includeInlayFunctionLikeReturnTypeHints = true
+includeInlayFunctionParameterTypeHints = true
+includeInlayParameterNameHints = "all"
+includeInlayParameterNameHintsWhenArgumentMatchesName = true
+includeInlayPropertyDeclarationTypeHints = true
+includeInlayVariableTypeHints = true
+
+[[language]]
+name = "vue"
+language-servers = [ "vuels", "typescript-language-server" ]
+indent = { tab-width = 4, unit = "    " }
+

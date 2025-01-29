@@ -11,6 +11,7 @@
   //   "copilot": false
   // },
   // "show_copilot_suggestions": false,
+  "vim_mode": false,
   "features": {
     "copilot": false
   },
@@ -27,6 +28,9 @@
       ""
     ]
   },
+  "easy_motion": {
+      "enabled": true
+  },
   "base_keymap": "VSCode",
   "theme": "XY-Zed",
   "ui_font_size": 16,
@@ -35,6 +39,7 @@
   "buffer_font_family": "JetBrains Mono",
   "tab_size": 4,
   "format_on_save": "off",
+  "ensure_final_newline_on_save": false,
   "tabs": {
         "close_position": "left"
   },
@@ -44,7 +49,7 @@
       "font_family": "MesloLGL Nerd Font Mono"
   },
   "assistant": {
-    "version": "1",
+    "version": "2",
     "button": false
   },
   "preview_tabs": {
@@ -64,17 +69,13 @@
           "enabled": false
       }
   },
-  "relative_line_numbers": false,
-  // "experimental.theme_overrides": {
-  //   "background.appearance": "blurred",
-  //   "panel.background": "#1E1D1E00",
-  //   "background": "#1E1D1EDF",
-  //   "terminal.background": "#1E1D1E00",
-  //   "title_bar.background": "#292929AF",
-  //   "status_bar.background": "#292929AF",
-  //   "editor.gutter.background": "#1E1D1ECF",
-  //   "editor.background": "#1E1D1E00",
-  //   "editor.active_line.background": "#272727AF"
-  //   // "editor.background": "#1E1D1EBF"
-  // }
+  "relative_line_numbers": true,
+  "lsp": {
+      "clangd": {
+          "binary": {
+            "path": "/usr/bin/clangd",
+            "arguments": ["--background-index", "--compile-commands-dir=build"]
+        }
+      }
+  }
 }

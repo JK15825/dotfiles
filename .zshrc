@@ -115,6 +115,7 @@ export PATH="$(brew --prefix)/opt/make/libexec/gnubin:$PATH"
 export PATH="/usr/local/bin/node/bin:$PATH"
 export PATH="/Applications/ARM/bin/:$PATH"
 export PATH="/Users/iti/.pyenv/versions/2.7.18/bin/:$PATH"
+export PATH="/usr/local/:$PATH"
 export editor=hx
 
 alias ls="eza --hyperlink --color=always --long --no-permissions --no-user --icons=always --no-time"

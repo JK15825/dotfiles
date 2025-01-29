@@ -28,6 +28,26 @@
                 "scalar": 1.0,
                 "scalarUnit": 0,
                 "shortName": "PGN"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 4,
+                "dataStart": 40,
+                "masterType": 0,
+                "name": "L",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "L"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 4,
+                "dataStart": 44,
+                "masterType": 0,
+                "name": "R",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "R"
             }
         ]
     },
@@ -51,7 +71,60 @@
         },
         "fast": false,
         "pgnName": "Heartbeat",
-        "values": []
+        "values": [
+            {
+                "conversionUnit": 0,
+                "dataLength": 16,
+                "dataStart": 0,
+                "masterType": 0,
+                "name": "New item 1",
+                "scalar": 0.001,
+                "scalarUnit": 0,
+                "shortName": "UPDR"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 8,
+                "dataStart": 16,
+                "masterType": 0,
+                "name": "New item 2",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "SEQ"
+            }
+        ]
+    },
+    "126996": {
+        "color": {
+            "a": 0.0,
+            "b": 1.0,
+            "g": 1.0,
+            "r": 1.0
+        },
+        "fast": true,
+        "pgnName": "Product Info Request",
+        "values": [
+            {
+                "conversionUnit": 0,
+                "dataLength": 16,
+                "dataStart": 8,
+                "masterType": 0,
+                "name": "Database Version",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "DBV"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 16,
+                "dataStart": 24,
+                "masterType": 0,
+                "name": "Product Code",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "PC"
+            }
+        ]
     },
     "127250": {
         "color": {
@@ -62,7 +135,18 @@
         },
         "fast": false,
         "pgnName": "Vessel Heading",
-        "values": []
+        "values": [
+            {
+                "conversionUnit": 0,
+                "dataLength": 16,
+                "dataStart": 8,
+                "masterType": 0,
+                "name": "New item 1",
+                "scalar": 0.0001,
+                "scalarUnit": 0,
+                "shortName": "angle"
+            }
+        ]
     },
     "127251": {
         "color": {
@@ -787,7 +871,38 @@
         },
         "fast": false,
         "pgnName": "Temp - Deprecated",
-        "values": []
+        "values": [
+            {
+                "conversionUnit": 0,
+                "dataLength": 8,
+                "dataStart": 8,
+                "masterType": 0,
+                "name": "New item 1",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "ZONE"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 8,
+                "dataStart": 16,
+                "masterType": 0,
+                "name": "New item 2",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "SOURCE"
+            },
+            {
+                "conversionUnit": 2,
+                "dataLength": 16,
+                "dataStart": 24,
+                "masterType": 1,
+                "name": "New item 3",
+                "scalar": 0.01,
+                "scalarUnit": 0,
+                "shortName": "NEW3"
+            }
+        ]
     },
     "130314": {
         "color": {
@@ -862,10 +977,10 @@
                 "shortName": "SRC"
             },
             {
-                "conversionUnit": 0,
-                "dataLength": 32,
+                "conversionUnit": 3,
+                "dataLength": 24,
                 "dataStart": 24,
-                "masterType": 0,
+                "masterType": 1,
                 "name": "Temperature",
                 "scalar": 0.001,
                 "scalarUnit": 0,
@@ -874,7 +989,7 @@
             {
                 "conversionUnit": 1,
                 "dataLength": 16,
-                "dataStart": 32,
+                "dataStart": 48,
                 "masterType": 2,
                 "name": "Speed over ground",
                 "scalar": 0.01,
@@ -1146,7 +1261,28 @@
         },
         "fast": false,
         "pgnName": "Trim Tab Status",
-        "values": []
+        "values": [
+            {
+                "conversionUnit": 0,
+                "dataLength": 8,
+                "dataStart": 0,
+                "masterType": 0,
+                "name": "New item 1",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "PORT"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 8,
+                "dataStart": 8,
+                "masterType": 0,
+                "name": "New item 2",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "STBD"
+            }
+        ]
     },
     "130579": {
         "color": {
@@ -1189,6 +1325,110 @@
                 "scalar": 1.0,
                 "scalarUnit": 0,
                 "shortName": "PWR"
+            }
+        ]
+    },
+    "130584": {
+        "color": {
+            "a": 0.0,
+            "b": 1.0,
+            "g": 1.0,
+            "r": 1.0
+        },
+        "fast": true,
+        "pgnName": "Bluetooth Devices",
+        "values": [
+            {
+                "conversionUnit": 0,
+                "dataLength": 8,
+                "dataStart": 8,
+                "masterType": 0,
+                "name": "Index of first",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "IDXF"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 8,
+                "dataStart": 16,
+                "masterType": 0,
+                "name": "Num Addresses",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "NADDR"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 8,
+                "dataStart": 24,
+                "masterType": 0,
+                "name": "total numb avail",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "TNA"
+            }
+        ]
+    },
+    "130585": {
+        "color": {
+            "a": 0.0,
+            "b": 1.0,
+            "g": 1.0,
+            "r": 1.0
+        },
+        "fast": false,
+        "pgnName": "Bluetooth Source Status",
+        "values": [
+            {
+                "conversionUnit": 0,
+                "dataLength": 8,
+                "dataStart": 0,
+                "masterType": 0,
+                "name": "Source Number",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "SN"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 4,
+                "dataStart": 8,
+                "masterType": 0,
+                "name": "Pairing Status",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "PS"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 2,
+                "dataStart": 12,
+                "masterType": 0,
+                "name": "Forget Device",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "FD"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 2,
+                "dataStart": 14,
+                "masterType": 0,
+                "name": "Discovering",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "DISC"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 48,
+                "dataStart": 16,
+                "masterType": 0,
+                "name": "Address",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "ADDR"
             }
         ]
     },
@@ -1311,6 +1551,16 @@
                 "scalar": 1.0,
                 "scalarUnit": 0,
                 "shortName": "LPF"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 8,
+                "dataStart": 40,
+                "masterType": 0,
+                "name": "New item 12",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "SUB"
             }
         ]
     },
@@ -1428,6 +1678,326 @@
             }
         ]
     },
+    "65280": {
+        "color": {
+            "a": 0.0,
+            "b": 1.0,
+            "g": 1.0,
+            "r": 1.0
+        },
+        "fast": false,
+        "pgnName": "Prop Switch Toggle",
+        "values": []
+    },
+    "65301": {
+        "color": {
+            "a": 0.0,
+            "b": 1.0,
+            "g": 1.0,
+            "r": 1.0
+        },
+        "fast": false,
+        "pgnName": "Prop VSwitch Status",
+        "values": []
+    },
+    "65302": {
+        "color": {
+            "a": 0.0,
+            "b": 1.0,
+            "g": 1.0,
+            "r": 1.0
+        },
+        "fast": false,
+        "pgnName": "Prop Switch Status",
+        "values": [
+            {
+                "conversionUnit": 0,
+                "dataLength": 8,
+                "dataStart": 16,
+                "masterType": 0,
+                "name": "New item 1",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "DIP"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 1,
+                "dataStart": 24,
+                "masterType": 0,
+                "name": "New item 2",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "sw1"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 1,
+                "dataStart": 25,
+                "masterType": 0,
+                "name": "New item 3",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "sw2"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 1,
+                "dataStart": 26,
+                "masterType": 0,
+                "name": "New item 4",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "sw3"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 1,
+                "dataStart": 27,
+                "masterType": 0,
+                "name": "New item 5",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "sw4"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 1,
+                "dataStart": 28,
+                "masterType": 0,
+                "name": "New item 6",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "sw5"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 1,
+                "dataStart": 29,
+                "masterType": 0,
+                "name": "New item 7",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "sw6"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 1,
+                "dataStart": 30,
+                "masterType": 0,
+                "name": "New item 8",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "sw7"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 1,
+                "dataStart": 31,
+                "masterType": 0,
+                "name": "New item 9",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "sw8"
+            }
+        ]
+    },
+    "65413": {
+        "color": {
+            "a": 0.0,
+            "b": 1.0,
+            "g": 1.0,
+            "r": 1.0
+        },
+        "fast": false,
+        "pgnName": "Seakeeper SKS1",
+        "values": [
+            {
+                "conversionUnit": 0,
+                "dataLength": 4,
+                "dataStart": 16,
+                "masterType": 0,
+                "name": "Current Flywheel Speed Mode",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "CFSM"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 8,
+                "dataStart": 24,
+                "masterType": 0,
+                "name": "driveTemp",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "DT"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 8,
+                "dataStart": 32,
+                "masterType": 0,
+                "name": "driveCurrent",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "DC"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 8,
+                "dataStart": 40,
+                "masterType": 0,
+                "name": "flywheelSPeedPercent",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "FWSP"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 16,
+                "dataStart": 48,
+                "masterType": 0,
+                "name": "Flywheel Speed",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "FWS"
+            }
+        ]
+    },
+    "65496": {
+        "color": {
+            "a": 0.0,
+            "b": 1.0,
+            "g": 1.0,
+            "r": 1.0
+        },
+        "fast": false,
+        "pgnName": "Ambient Conditions",
+        "values": [
+            {
+                "conversionUnit": 0,
+                "dataLength": 8,
+                "dataStart": 16,
+                "masterType": 0,
+                "name": "New item 1",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "ZONE"
+            },
+            {
+                "conversionUnit": 3,
+                "dataLength": 16,
+                "dataStart": 24,
+                "masterType": 1,
+                "name": "New item 2",
+                "scalar": 0.01,
+                "scalarUnit": 0,
+                "shortName": "AIRT"
+            }
+        ]
+    },
+    "65497": {
+        "color": {
+            "a": 0.0,
+            "b": 1.0,
+            "g": 1.0,
+            "r": 1.0
+        },
+        "fast": false,
+        "pgnName": "Operation Feedback",
+        "values": [
+            {
+                "conversionUnit": 0,
+                "dataLength": 8,
+                "dataStart": 16,
+                "masterType": 0,
+                "name": "New item 1",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "ZONE"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 3,
+                "dataStart": 24,
+                "masterType": 0,
+                "name": "New item 2",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "PWR"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 3,
+                "dataStart": 27,
+                "masterType": 0,
+                "name": "New item 3",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "OPM"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 2,
+                "dataStart": 30,
+                "masterType": 0,
+                "name": "New item 4",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "ECO"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 3,
+                "dataStart": 32,
+                "masterType": 0,
+                "name": "New item 5",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "HMODE"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 3,
+                "dataStart": 35,
+                "masterType": 0,
+                "name": "New item 6",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "FAN"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 2,
+                "dataStart": 38,
+                "masterType": 0,
+                "name": "New item 7",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "QUIET"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 2,
+                "dataStart": 40,
+                "masterType": 0,
+                "name": "New item 8",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "SCHED"
+            },
+            {
+                "conversionUnit": 0,
+                "dataLength": 6,
+                "dataStart": 42,
+                "masterType": 0,
+                "name": "New item 9",
+                "scalar": 1.0,
+                "scalarUnit": 0,
+                "shortName": "FABNM"
+            }
+        ]
+    },
     "65500": {
         "color": {
             "a": 0.0,
@@ -1482,11 +2052,13 @@
     },
     "configuration": {
         "dark_mode": true,
-        "data": "a3 99 22 00",
-        "destination": "35",
+        "data": "",
+        "destination": "",
         "inverted_search": false,
-        "pgns": [],
-        "source": "5",
+        "pgns": [
+            130586
+        ],
+        "source": "",
         "use_hex": true
     },
     "defaults": {
